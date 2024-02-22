@@ -4,9 +4,9 @@ const fs = require('fs');
 const path = require('path');
 
 // Set the video ID and output file name
-const videoId = 'TW9d8vYrVFQ';
+const videoId = 'ppk54AcEc2U';
 const outputDir = 'Music';
-const outputFile = path.join(outputDir, 'ELEKTRONOMIA_SKYHIGH.mp3'); // Name the mp3 file whatever you want
+const outputFile = path.join(outputDir, 'spirit.mp3'); // Name the mp3 file whatever you want
 
 // Get the audio stream using ytdl-core
 const stream = ytdl(videoId, { filter: 'audioonly' });
