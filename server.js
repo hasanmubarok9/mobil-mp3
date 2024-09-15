@@ -1,12 +1,12 @@
-const ytdl = require('ytdl-core');
+const ytdl = require('@distube/ytdl-core');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const path = require('path');
 
 // Set the video ID and output file name
-const videoId = 'ppk54AcEc2U';
+const videoId = 'WFCMUV7r-HM';
 const outputDir = 'Music';
-const outputFile = path.join(outputDir, 'spirit.mp3'); // Name the mp3 file whatever you want
+const outputFile = path.join(outputDir, 'benci-ku-sangka-sayang.mp3'); // Name the mp3 file whatever you want
 
 // Get the audio stream using ytdl-core
 const stream = ytdl(videoId, { filter: 'audioonly' });
